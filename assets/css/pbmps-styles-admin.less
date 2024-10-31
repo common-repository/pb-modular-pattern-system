@@ -1,0 +1,112 @@
+// mixins
+
+.transparent-bg {
+	background: rgba(255, 255, 255, 0.35);
+}
+
+body,
+html {
+
+	&.settings_page_pb-modular-pattern-system {
+		background: rgb(255, 72, 77);
+		background: linear-gradient(90deg, rgba(255, 72, 77, 1) 0%, rgba(121, 125, 255, 1) 35%, rgba(46, 176, 93, 1) 100%);
+
+		.notice,
+		div.error,
+		div.updated {
+			background-color: #ffffff;
+		}
+
+		.wrap {
+			padding-top: 20px;
+
+			* {
+				color: rgba(19, 19, 19, 0.99);
+				line-height: 1.5rem;
+
+				p {
+					font-size: 15px;
+				}
+
+				h1,
+				h2,
+				h3 {
+					width: 80%;
+				}
+
+				strong {
+					font-size: 15px;
+					color: #000000 !important;
+				}
+
+				i {
+					font-weight: normal;
+				}
+
+				&::selection {
+					background-color: #0085ba;
+					color: #ffffff;
+				}
+			}
+
+			.pbmps-logo {
+				width: 150px;
+				height: 150px;
+				background-image: url("../images/logo-modular-pattern-system-light.svg");
+				background-repeat: no-repeat;
+				background-size: contain;
+				float: left;
+				margin: 10px 20px 0px 0;
+			}
+
+			input[type=checkbox],
+			input[type=radio],
+			input[type=checkbox],
+			input[type=color],
+			input[type=date],
+			input[type=datetime-local],
+			input[type=datetime],
+			input[type=email],
+			input[type=month],
+			input[type=number],
+			input[type=password],
+			input[type=radio],
+			input[type=search],
+			input[type=tel],
+			input[type=text],
+			input[type=time],
+			input[type=url],
+			input[type=week],
+			select,
+			textarea {
+				.transparent-bg;
+				border-color: transparent;
+			}
+
+			input[type=submit] {
+				color: #ffffff;
+			}
+
+			textarea {
+				padding: 20px;
+				.transparent-bg;
+			}
+
+			#poststuff {
+				.transparent-bg;
+				padding: 20px;
+				margin-top: 20px;
+
+				.postbox {
+					border: 0;
+					background: transparent;
+
+					.inside {
+						padding: 20px;
+						.transparent-bg;
+					}
+				}
+			}
+		}
+	}
+}

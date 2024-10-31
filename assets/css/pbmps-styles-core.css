@@ -1,0 +1,103 @@
+.bg-light {
+  background-color: #ffffff !important;
+  color: #2e2e2e;
+}
+.bg-dark {
+  background-color: #606060 !important;
+  color: #dedede;
+}
+.bg-darker {
+  background-color: #2e2e2e !important;
+  color: #dedede;
+}
+.border-bottom {
+  border-bottom: 2px solid #dedede;
+}
+.border-top {
+  border-top: 2px solid #dedede;
+}
+.identifier-label--publication {
+  border: 20px #b8ffd2 solid;
+}
+.identifier-label--publication::before {
+  content: 'Publication';
+  background-color: #b8ffd2;
+  padding: 0;
+  width: auto;
+  color: #2e2e2e;
+  text-transform: uppercase;
+  font-size: 10px;
+  position: absolute;
+  left: 20px;
+  top: 4px;
+  z-index: 1;
+}
+.identifier-label {
+  display: block;
+}
+.identifier-label--element {
+  border: 3px #fffdba solid;
+}
+.identifier-label--element::before {
+  content: 'Element';
+  background-color: #fffdba;
+  padding: 2px;
+  width: auto;
+  float: left;
+  color: #2e2e2e;
+  text-transform: uppercase;
+  font-size: 10px;
+  min-width: 50px;
+  text-align: center;
+}
+.identifier-label--block {
+  border: 6px #ffccb2 solid;
+  padding: 30px !important;
+}
+.identifier-label--block::before {
+  content: 'Block';
+  background-color: #ffccb2;
+  padding: 5px;
+  width: auto;
+  color: #2e2e2e;
+  text-transform: uppercase;
+  font-size: 10px;
+  min-width: 50px;
+  text-align: center;
+  display: inline-block;
+}
+.identifier-label--partial {
+  border: 24px #ffb5b7 solid;
+}
+.identifier-label--partial::before {
+  content: 'Partial';
+  background-color: #ffb5b7;
+  padding: 5px;
+  width: auto;
+  color: #2e2e2e;
+  text-transform: uppercase;
+  font-size: 10px;
+  position: absolute;
+  left: 0px;
+  top: -3px;
+  z-index: 1;
+  min-width: 50px;
+  text-align: center;
+}
+.identifier-label--structural {
+  border: 20px #c3c5ff solid;
+  margin: 5px;
+}
+.identifier-label--structural::before {
+  content: 'Structural';
+  background-color: #c3c5ff;
+  padding: 0;
+  width: auto;
+  color: #2e2e2e;
+  text-transform: uppercase;
+  font-size: 10px;
+  position: absolute;
+  left: 0;
+  top: -16px;
+  z-index: 1;
+}

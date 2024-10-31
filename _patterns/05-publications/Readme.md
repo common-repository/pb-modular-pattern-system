@@ -1,0 +1,1 @@
+Publications are loaded from the theme.

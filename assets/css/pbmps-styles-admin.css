@@ -1,0 +1,129 @@
+.transparent-bg {
+  background: rgba(255, 255, 255, 0.35);
+}
+body.settings_page_pb-modular-pattern-system,
+html.settings_page_pb-modular-pattern-system {
+  background: #ff484d;
+  background: linear-gradient(90deg, #ff484d 0%, #797dff 35%, #2eb05d 100%);
+}
+body.settings_page_pb-modular-pattern-system .notice,
+html.settings_page_pb-modular-pattern-system .notice,
+body.settings_page_pb-modular-pattern-system div.error,
+html.settings_page_pb-modular-pattern-system div.error,
+body.settings_page_pb-modular-pattern-system div.updated,
+html.settings_page_pb-modular-pattern-system div.updated {
+  background-color: #ffffff;
+}
+body.settings_page_pb-modular-pattern-system .wrap,
+html.settings_page_pb-modular-pattern-system .wrap {
+  padding-top: 20px;
+}
+body.settings_page_pb-modular-pattern-system .wrap *,
+html.settings_page_pb-modular-pattern-system .wrap * {
+  color: rgba(19, 19, 19, 0.99);
+  line-height: 1.5rem;
+}
+body.settings_page_pb-modular-pattern-system .wrap * p,
+html.settings_page_pb-modular-pattern-system .wrap * p {
+  font-size: 15px;
+}
+body.settings_page_pb-modular-pattern-system .wrap * h1,
+html.settings_page_pb-modular-pattern-system .wrap * h1,
+body.settings_page_pb-modular-pattern-system .wrap * h2,
+html.settings_page_pb-modular-pattern-system .wrap * h2,
+body.settings_page_pb-modular-pattern-system .wrap * h3,
+html.settings_page_pb-modular-pattern-system .wrap * h3 {
+  width: 80%;
+}
+body.settings_page_pb-modular-pattern-system .wrap * strong,
+html.settings_page_pb-modular-pattern-system .wrap * strong {
+  font-size: 15px;
+  color: #000000 !important;
+}
+body.settings_page_pb-modular-pattern-system .wrap * i,
+html.settings_page_pb-modular-pattern-system .wrap * i {
+  font-weight: normal;
+}
+body.settings_page_pb-modular-pattern-system .wrap *::selection,
+html.settings_page_pb-modular-pattern-system .wrap *::selection {
+  background-color: #0085ba;
+  color: #ffffff;
+}
+body.settings_page_pb-modular-pattern-system .wrap .pbmps-logo,
+html.settings_page_pb-modular-pattern-system .wrap .pbmps-logo {
+  width: 150px;
+  height: 150px;
+  background-image: url("../images/logo-modular-pattern-system-light.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  float: left;
+  margin: 10px 20px 0px 0;
+}
+body.settings_page_pb-modular-pattern-system .wrap input[type=checkbox],
+html.settings_page_pb-modular-pattern-system .wrap input[type=checkbox],
+body.settings_page_pb-modular-pattern-system .wrap input[type=radio],
+html.settings_page_pb-modular-pattern-system .wrap input[type=radio],
+body.settings_page_pb-modular-pattern-system .wrap input[type=checkbox],
+html.settings_page_pb-modular-pattern-system .wrap input[type=checkbox],
+body.settings_page_pb-modular-pattern-system .wrap input[type=color],
+html.settings_page_pb-modular-pattern-system .wrap input[type=color],
+body.settings_page_pb-modular-pattern-system .wrap input[type=date],
+html.settings_page_pb-modular-pattern-system .wrap input[type=date],
+body.settings_page_pb-modular-pattern-system .wrap input[type=datetime-local],
+html.settings_page_pb-modular-pattern-system .wrap input[type=datetime-local],
+body.settings_page_pb-modular-pattern-system .wrap input[type=datetime],
+html.settings_page_pb-modular-pattern-system .wrap input[type=datetime],
+body.settings_page_pb-modular-pattern-system .wrap input[type=email],
+html.settings_page_pb-modular-pattern-system .wrap input[type=email],
+body.settings_page_pb-modular-pattern-system .wrap input[type=month],
+html.settings_page_pb-modular-pattern-system .wrap input[type=month],
+body.settings_page_pb-modular-pattern-system .wrap input[type=number],
+html.settings_page_pb-modular-pattern-system .wrap input[type=number],
+body.settings_page_pb-modular-pattern-system .wrap input[type=password],
+html.settings_page_pb-modular-pattern-system .wrap input[type=password],
+body.settings_page_pb-modular-pattern-system .wrap input[type=radio],
+html.settings_page_pb-modular-pattern-system .wrap input[type=radio],
+body.settings_page_pb-modular-pattern-system .wrap input[type=search],
+html.settings_page_pb-modular-pattern-system .wrap input[type=search],
+body.settings_page_pb-modular-pattern-system .wrap input[type=tel],
+html.settings_page_pb-modular-pattern-system .wrap input[type=tel],
+body.settings_page_pb-modular-pattern-system .wrap input[type=text],
+html.settings_page_pb-modular-pattern-system .wrap input[type=text],
+body.settings_page_pb-modular-pattern-system .wrap input[type=time],
+html.settings_page_pb-modular-pattern-system .wrap input[type=time],
+body.settings_page_pb-modular-pattern-system .wrap input[type=url],
+html.settings_page_pb-modular-pattern-system .wrap input[type=url],
+body.settings_page_pb-modular-pattern-system .wrap input[type=week],
+html.settings_page_pb-modular-pattern-system .wrap input[type=week],
+body.settings_page_pb-modular-pattern-system .wrap select,
+html.settings_page_pb-modular-pattern-system .wrap select,
+body.settings_page_pb-modular-pattern-system .wrap textarea,
+html.settings_page_pb-modular-pattern-system .wrap textarea {
+  background: rgba(255, 255, 255, 0.35);
+  border-color: transparent;
+}
+body.settings_page_pb-modular-pattern-system .wrap input[type=submit],
+html.settings_page_pb-modular-pattern-system .wrap input[type=submit] {
+  color: #ffffff;
+}
+body.settings_page_pb-modular-pattern-system .wrap textarea,
+html.settings_page_pb-modular-pattern-system .wrap textarea {
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.35);
+}
+body.settings_page_pb-modular-pattern-system .wrap #poststuff,
+html.settings_page_pb-modular-pattern-system .wrap #poststuff {
+  background: rgba(255, 255, 255, 0.35);
+  padding: 20px;
+  margin-top: 20px;
+}
+body.settings_page_pb-modular-pattern-system .wrap #poststuff .postbox,
+html.settings_page_pb-modular-pattern-system .wrap #poststuff .postbox {
+  border: 0;
+  background: transparent;
+}
+body.settings_page_pb-modular-pattern-system .wrap #poststuff .postbox .inside,
+html.settings_page_pb-modular-pattern-system .wrap #poststuff .postbox .inside {
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.35);
+}
